@@ -9,12 +9,12 @@ flag_age=0
 flag_date=0
 flag_yes=0
 
-st.title("Welcome to my Bithday Quiz")
+st.title("Welcome to my Birthday Quiz")
 st.write("""
    ## Let's start with the first question
 """)
 
-age=st.slider("How old will i turn this year ?",28,35)
+age=st.slider("How old will I turn this year ?",28,35)
 
 if age==30:
     st.markdown("<h1 style='text-align: center; color: green;'>Wow, nice one!</h1>", unsafe_allow_html=True)
