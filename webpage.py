@@ -62,7 +62,7 @@ if flag_date==1:
         c3.image(im3, caption='Image 3', use_column_width=True)
         st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}      </style>', unsafe_allow_html=True)
         
-        choice=st.radio("Which of the below images is my Giulietta?",('Image 1','Image 2','Image 3'))
+        choice=st.radio("Which of the above images is my Giulietta?",('Image 1','Image 2','Image 3'))
         if choice=='Image 1':
             st.markdown("<h2 style='text-align: center; color: red;'>That's Batman. Whoops!</h2>", unsafe_allow_html=True)
         if choice=='Image 2':
