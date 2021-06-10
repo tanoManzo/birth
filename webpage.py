@@ -57,9 +57,9 @@ if flag_date==1:
         im3 = Image.open("giu.png")
        
         c1,c2,c3=st.beta_columns(3)
-        c1.image(im1, caption='Uploaded Image.', use_column_width=True)
-        c2.image(im2, caption='Uploaded Image.', use_column_width=True)
-        c3.image(im3, caption='Uploaded Image.', use_column_width=True)
+        c1.image(im1, caption='Image 1', use_column_width=True)
+        c2.image(im2, caption='Image 2', use_column_width=True)
+        c3.image(im3, caption='Image 3', use_column_width=True)
         st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}      </style>', unsafe_allow_html=True)
         
         choice=st.radio("Which of the below images is my Giulietta?",('Image 1','Image 2','Image 3'))
